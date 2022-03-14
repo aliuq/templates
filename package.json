@@ -1,0 +1,14 @@
+{
+  "name": "templates",
+  "private": true,
+  "description": "templates for myself usually used",
+  "scripts": {
+    "test": "echo 1"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "liuq",
+  "license": "MIT",
+  "homepage": "https://github.com/aliuq/templates"
+}
