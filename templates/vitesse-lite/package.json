@@ -4,7 +4,7 @@
   "packageManager": "pnpm@6.32.3",
   "scripts": {
     "build": "vite-ssr build",
-    "dev": "vite-ssr --port 3333 --open",
+    "dev": "vite-ssr --port 3333",
     "lint": "eslint .",
     "typecheck": "vue-tsc --noEmit",
     "serve": "cross-env NODE_ENV=production vite-ssr",
@@ -32,7 +32,7 @@
     "unplugin-vue-components": "^0.18.0",
     "vite": "^2.8.6",
     "vite-plugin-pages": "^0.21.4",
-    "vite-ssr-vue3": "^0.0.2",
+    "vite-ssr-vue3": "^0.0.5",
     "vitest": "^0.6.0",
     "vue-tsc": "^0.32.1"
   },
