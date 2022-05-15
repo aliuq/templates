@@ -1,0 +1,30 @@
+{
+  "name": "build_lib",
+  "version": "0.0.0",
+  "private": true,
+  "description": "build-lib is a template for creating a build library.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "bin",
+    "*.d.ts"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "dev": "tsup --watch src",
+    "build": "unbuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@aliuq/eslint-config": "^0.0.3",
+    "eslint": "^8.15.0",
+    "tsup": "^5.12.7",
+    "typescript": "^4.6.4",
+    "unbuild": "^0.7.4"
+  },
+  "engines": {
+    "node": ">=14.19.1"
+  }
+}
