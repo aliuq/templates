@@ -3,7 +3,7 @@
   "private": true,
   "description": "templates for myself usually used",
   "scripts": {
-    "test": "echo 1"
+    "readme": "esno scripts/gen_readme.ts"
   },
   "keywords": [
     "template"

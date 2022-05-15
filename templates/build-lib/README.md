@@ -19,7 +19,6 @@ build-lib is a template for creating a build library.
 ```json
 {
   "dev": "tsup --watch src",
-  "build": "unbuild",
-  "test": "echo \"Error: no test specified\" && exit 1"
+  "build": "unbuild"
 }
 ```
